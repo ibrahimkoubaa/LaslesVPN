@@ -229,6 +229,9 @@ header {
   bottom: 24px;
   left: 60px;
 }
+.image-card {
+  max-width: none;
+}
 .gradient {
   background: linear-gradient(180deg, #f6f6f6 -9%, #ffffff 62%);
   padding: 80px 0 150px;
@@ -239,16 +242,29 @@ header {
 .logo-box-phone {
   display: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   body {
     padding: 10px;
   }
+  .checked-list {
+    justify-content: center;
+  }
+  .first-bloc {
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
   .logos {
     text-align: center;
-    justify-content: none;
+    justify-content: center !important;
   }
   .plan-card {
     row-gap: 10px;
+  }
+
+  .changing-bar {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center !important;
   }
   header {
     display: none;
@@ -260,7 +276,7 @@ header {
   }
   .main-text,
   .subtitle {
-    width: 100%;
+    width: 100% !important;
   }
   .part-right {
     flex-wrap: wrap;
@@ -270,8 +286,11 @@ header {
     margin-top: 10px;
   }
   .bloc {
-    flex: auto;
+    flex: auto !important;
     margin-top: 10px;
+  }
+  .second-bloc {
+    padding: 20px 0 !important;
   }
 }
 @media only screen and (max-width: 1150px) {
@@ -294,7 +313,7 @@ header {
   }
   .bloc-button {
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 10px !important;
   }
 
   .map-world {
