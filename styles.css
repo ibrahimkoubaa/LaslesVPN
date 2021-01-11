@@ -851,7 +851,7 @@ header {
 }
 .button-footer {
   position: relative;
-  transform: translate(0, -50%);
+  transform: translate(0, 50%);
 }
 .button-subscribe {
   width: 45%;
@@ -860,7 +860,7 @@ footer {
   background: #f8f8f8;
 }
 .content-footer {
-  padding-bottom: 100px;
+  padding: 182px 0 100px;
   display: flex;
   column-gap: 230px;
 }
@@ -951,7 +951,7 @@ footer {
   cursor: pointer;
 }
 .changing-bar {
-  padding: 60px 0 180px;
+  padding-top: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
