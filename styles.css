@@ -1,5 +1,4 @@
 body {
-  max-width: 1440px;
   background-color: #ffffff;
   margin: 0px auto;
   font-family: "Rubik", sans-serif;
@@ -517,6 +516,7 @@ header {
 .cta-gift:hover {
   background: #f53838;
   color: #ffffff;
+  box-shadow: 0px 30px 64px 0px rgba(245, 56, 56, 0.4);
 }
 .cta-navigation:hover {
   background: #f53838;
@@ -813,6 +813,7 @@ header {
 
 .viewer {
   display: grid;
+  row-gap: 5px;
 }
 .views {
   display: flex;
@@ -823,14 +824,12 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 30px;
 }
 .country {
   font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 30px;
   color: #4f5665;
 }
 .oppion {
@@ -848,10 +847,11 @@ header {
   background: #ffffff;
   border-radius: 10px;
   column-gap: 379px;
+  box-shadow: 7px 77px 100px 91px rgba(13, 16, 37, 0.05);
 }
 .button-footer {
   position: relative;
-  bottom: 130px;
+  transform: translate(0, -50%);
 }
 .button-subscribe {
   width: 45%;
